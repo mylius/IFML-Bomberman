@@ -1,2 +1,5 @@
-# bomberman_rl
-Setup for a project/competition amongst students to train a winning Reinforcement Learning agent for the classic game Bomberman.
+# IFML-Bomberman
+
+Clone of https://github.com/ukoethe/bomberman_rl.git.
+
+We added some minor changes we made to the environment and our own agent.
