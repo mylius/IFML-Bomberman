@@ -212,7 +212,7 @@ def setup(self):
         # If True normal, if False epsilon=epsilon_min and uses trained model
     self.learning_bool_again = False
         # If True load trained model to continue training
-    self.usePER = True
+    self.usePER = False
         # If True remember/sample with PER, if False remember/sample with deque.
     self.load_memory = False
         # Load old memory
@@ -222,21 +222,21 @@ def setup(self):
         # Learning rate for Adam
     self.learning_rate_decay = 0 # 1/128/15
         # Adam learning rate is *1/(1+n*decay) after n fits
-    self.epsilon = 0.05 # 1
+    self.epsilon = 0 # 1
         # Exploration rate. If it is zero, it stays that way.
-    self.epsilon_min = 0.03 # 0.01
+    self.epsilon_min = 0 # 0.01
         # Minimal value of epsilon.
     self.epsilon_decay = -1/10000 # -1/40
         # -! Exponential decay of epsilon towards epsilon_min
-    self.use_two_epsilon = True
+    self.use_two_epsilon = False
         # Use different epsilon when bomb is near!
-    self.epsilon_bomb = 0.01 # 1
+    self.epsilon_bomb = 0 # 1
         # Exploration rate if bomb is close. If it is zero, it stays that way.
-    self.epsilon_bomb_min = 0.01 # 0.01
+    self.epsilon_bomb_min = 0 # 0.01
         # Minimal value of epsilon_bomb.
     self.epsilon_bomb_decay = -1/3000 # -1/40
         # -! Exponential decay of epsilon_bomb towards epsilon_bomb_min
-    self.adjust_epsilon = True
+    self.adjust_epsilon = False
         # False if epsilon and epsilon_bomb should be constant, if epsilon or epsilon_bomb is zero it stays that way.
     self.replay_batch_size = 32 # 32
         # Number of events to replay after each round.
