@@ -53,9 +53,29 @@ def main():
     t = threading.Thread(target=game_logic, args=(world, user_inputs))
     t.daemon = True
     t.start()
+    
+    # Save agents at the beginning
+    # agents = world.agents
 
     # Run one or more games
     for i in range(s.n_rounds):
+        
+        # if i % 2==0:
+            # Variable crate density
+            # world.set_crate_density(0)
+            
+            # To only use our agent
+            # # for agent in agents:
+                # # if agent.name == "Nobel":
+                    # # world.change_agents([agent])
+        # else:
+            # Variable crate density
+            # world.set_crate_density(0.75)
+            
+            # To again use all of them
+            # # world.change_agents(agents)
+        
+        
         if not world.running:
             world.ready_for_restart_flag.wait()
             world.ready_for_restart_flag.clear()
