@@ -26,12 +26,23 @@ class BombeRLeWorld(object):
         # Available robot colors
         self.colors = ['blue', 'green', 'yellow', 'pink']
         self.setup_agents(agents)
+        
+        # Set crate density
+        self.crate_density = s.crate_density
 
         # Get the game going
         self.round = 0
         self.running = False
         self.ready_for_restart_flag = mp.Event()
         self.new_round()
+    
+    
+    def set_crate_density(self,crate_density):
+        self.crate_density = crate_density
+    
+    
+    def change_agents(self,agents):
+        self.agents = agents
 
 
     def setup_logging(self):
@@ -97,7 +108,7 @@ class BombeRLeWorld(object):
         self.round_id = f'Replay {datetime.now().strftime("%Y-%m-%d %H-%M-%S")}'
 
         # Arena with wall and crate layout
-        self.arena = (np.random.rand(s.cols, s.rows) < s.crate_density).astype(int)
+        self.arena = (np.random.rand(s.cols, s.rows) < self.crate_density).astype(int)
         self.arena[:1, :] = -1
         self.arena[-1:,:] = -1
         self.arena[:, :1] = -1
