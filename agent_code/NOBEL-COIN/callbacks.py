@@ -53,11 +53,6 @@ import os
 # SumTree has nan if called for the first time, ignore warning!
 np.seterr(invalid='ignore')
 
-""" Possible Improvements:
-    > Dont turn learning in main off! releasing from oscillation no longer works!!
-      use self.learning_bool=False
-"""
-
 """ How to use:
     > Turn self.generate_random_data to True to generate random data that will fill up the memory before starting. Run once with True,
       it will generate a file from it. Run with False afterwards, it will load from the file. Repeat this for new reward values and state versions.
