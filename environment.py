@@ -388,6 +388,12 @@ class BombeRLeWorld(object):
         if (len(self.active_agents) == 1
             and (self.arena == 1).sum() == 0
             and all([not c.collectable for c in self.coins])
+            and s.stop_when_bombs_present):
+            self.logger.info(f'One agent left alive with nothing to do except bombs and explosions, wrap up round')
+            return True
+        if (len(self.active_agents) == 1
+            and (self.arena == 1).sum() == 0
+            and all([not c.collectable for c in self.coins])
             and len(self.bombs) + len(self.explosions) == 0):
             self.logger.info(f'One agent left alive with nothing to do, wrap up round')
             return True
