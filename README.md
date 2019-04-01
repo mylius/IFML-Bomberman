@@ -13,3 +13,5 @@ NOBEL-SEMIFINAL is a version that can play the full game. It is a preliminary ve
 NOBEL-FINAL is a version that can play the full game. It is the final version we submitted for the competition.
 
 NOBEL is a version that does not load a trained model. However, it contains the raw files from which all our plots were generated, and the functions to generate those plots.
+
+Our agent requires keras and tensorflow.
