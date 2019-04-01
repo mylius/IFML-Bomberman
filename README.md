@@ -2,7 +2,7 @@
 
 Clone of https://github.com/ukoethe/bomberman_rl.git.
 
-We added some minor changes we made to the environment and our own agent.
+We added some minor changes we made to the environment, and our own agent.
 
 NOBEL-COIN is a version of our agent that can only collect coins, however it is quite good at it.
 
