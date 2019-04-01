@@ -126,6 +126,12 @@ def main():
                     sleep(sleep_time)
                 if not s.gui:
                     last_frame = time()
+        
+        # Prints the round counter and the total score for each agent
+        # score=[]
+        # for a in world.agents:
+            # score += [a.total_score]
+        # print("Round: "+str(i+1)+", Scores: "+str(score))
 
     world.end()
 
