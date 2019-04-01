@@ -31,6 +31,7 @@ settings = {
     'bomb_power': 3,
     'bomb_timer': 4,
     'explosion_timer': 2,
+    'stop_when_bombs_present': False,
 
     # Rules for agents
     'timeout': 5.0,
