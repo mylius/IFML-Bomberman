@@ -15,3 +15,5 @@ NOBEL-FINAL is a version that can play the full game. It is the final version we
 NOBEL is a version that does not load a trained model. However, it contains the raw files from which all our plots were generated, and the functions to generate those plots.
 
 Our agent requires keras and tensorflow.
+
+After 200 rounds with two Nobel against two Lord Voldemort (agent from https://github.com/DanHalperin/Bomberman_rl), Nobel recieved a mean of 4.4 vs the 3.5 of Lord Voldemort, however Nobel was consistently one order of magnitude slower.
