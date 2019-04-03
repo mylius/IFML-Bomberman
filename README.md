@@ -27,3 +27,13 @@ Same setup against TheImitator (https://github.com/AaronDavidSchneider/bomberman
 Same setup against The_Jester (https://github.com/malteprinzler/bomberman_AI), after 280 round Nobel achieved 3.2  (4.2 without punishment for slowness) vs the 2.8 of The_Jester, while taking about three times as long to choose actions.
 
 In a setup of Nobel vs. Lord_Voldemort vs. TheImitator vs. The_Jester, after 400 rounds they achieved mean points of 4.36 vs. 4.04 vs. 1.47 vs. 3.73 per round, respectively. Nobel clearly outperformed the other agents, but got deducted one point every round because it was also clearly the slowest, i.e. ignoring the punishment for slowness Nobel would have achieved a mean score of 5.36 points per round.
+
+# Other agents on GitHub
+
+Lord_Voldemort https://github.com/DanHalperin/Bomberman_rl
+TheImitator https://github.com/AaronDavidSchneider/bomberman_RA
+The_Jester https://github.com/malteprinzler/bomberman_AI
+
+final_agent https://github.com/flo-he/RL-for-bomberman
+farting_simulator https://github.com/MadoScientistu/Bomberman-A.I.-Uni-Heidelberg-FML-WS-2018-19
+lukas_agent https://github.com/phaetjay/ifml_project
