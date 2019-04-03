@@ -20,11 +20,11 @@ Our agent requires keras and tensorflow.
 
 # Comparison to other agents on GitHub
 
-After 200 rounds with two Nobel against two Lord Voldemort (agent from https://github.com/DanHalperin/Bomberman_rl), Nobel recieved a mean of 4.4 points (5.4 without punishment for slowness) vs the 3.5 points of Lord Voldemort, however Nobel was consistently one order of magnitude slower.
+After 200 rounds with two Nobel against two Lord_Voldemort, Nobel recieved a mean of 4.4 points (5.4 without punishment for slowness) vs the 3.5 points of Lord Voldemort, however Nobel was consistently one order of magnitude slower.
 
-Same setup against TheImitator (https://github.com/AaronDavidSchneider/bomberman_RA), after 50 round Nobel achieved 5.3  (6.3 without punishment for slowness) vs the 2.2 of TheImitator, while taking about three times as long to choose actions.
+Same setup against TheImitator, after 50 round Nobel achieved 5.3  (6.3 without punishment for slowness) vs the 2.2 of TheImitator, while taking about three times as long to choose actions.
 
-Same setup against The_Jester (https://github.com/malteprinzler/bomberman_AI), after 280 round Nobel achieved 3.2  (4.2 without punishment for slowness) vs the 2.8 of The_Jester, while taking about three times as long to choose actions.
+Same setup against The_Jester, after 280 round Nobel achieved 3.2  (4.2 without punishment for slowness) vs the 2.8 of The_Jester, while taking about three times as long to choose actions.
 
 In a setup of Nobel vs. Lord_Voldemort vs. TheImitator vs. The_Jester, after 400 rounds they achieved mean points of 4.36 vs. 4.04 vs. 1.47 vs. 3.73 per round, respectively. Nobel clearly outperformed the other agents, but got deducted one point every round because it was also clearly the slowest, i.e. ignoring the punishment for slowness Nobel would have achieved a mean score of 5.36 points per round.
 
