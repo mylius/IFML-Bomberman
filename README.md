@@ -31,9 +31,13 @@ In a setup of Nobel vs. Lord_Voldemort vs. TheImitator vs. The_Jester, after 400
 # Other agents on GitHub
 
 Lord_Voldemort https://github.com/DanHalperin/Bomberman_rl
+
 TheImitator https://github.com/AaronDavidSchneider/bomberman_RA
+
 The_Jester https://github.com/malteprinzler/bomberman_AI
 
 final_agent https://github.com/flo-he/RL-for-bomberman
+
 farting_simulator https://github.com/MadoScientistu/Bomberman-A.I.-Uni-Heidelberg-FML-WS-2018-19
+
 lukas_agent https://github.com/phaetjay/ifml_project
