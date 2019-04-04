@@ -22,8 +22,11 @@ Our agent requires keras and tensorflow.
 
 After 200 rounds with two Nobel against two Lord_Voldemort, Nobel recieved a mean of 4.4 points vs 3.4 points for Lord Voldemort, however Nobel was consistently one order of magnitude slower.
 
-<!-- 150 rounds, 1x Nobel vs. 3x Lord-voldemort: 4.2 vs. 3.6
-100 rounds, 1x Nobel vs. 1x Lord_Voldemort: 4.5 vs. 5.2 -->
+<!-- 
+150 rounds, 1x Nobel vs. 3x Lord-voldemort: 4.2 vs. 3.6
+100 rounds, 1x Nobel vs. 1x Lord_Voldemort: 4.5 vs. 5.2
+400 rounds, 3x Nobel vs. 1x Lord_Voldemort: 4.1 vs. 3.3
+-->
 
 Same setup against TheImitator, after 150 round Nobel achieved 5.2 vs 1.8 for TheImitator, while taking about three times as long to choose actions.
 
@@ -31,7 +34,7 @@ Same setup against The_Jester, after 200 round Nobel achieved 3.5 vs 2.8 for The
 
 In a setup of Nobel vs. Lord_Voldemort vs. TheImitator vs. The_Jester, after 250 rounds they achieved mean points of 4.86 vs. 3.78 vs. 1.70 vs. 3.50 per round, respectively. Nobel clearly outperformed the other agents, even though it was punished for consistently being the slowest. <!-- Round: 250, Scores: [1214, 946, 425, 875] -->
 
-In a setup of simple_agent vs. Nobel vs. Lord_Voldemort vs. The_Jester, after 350 rounds they achieved mean points of 2.48 vs. 4.07 vs. 3.99 vs. 3.22 per round, respectively. The difference between Nobel and Lord_Voldemort was not stable, however Nobel was still deducted one point per round due to it being the slowest. <!-- Round: 350, Scores: [869, 1425, 1396, 1128] -->
+In a setup of simple_agent vs. Nobel vs. Lord_Voldemort vs. The_Jester, after 1500 rounds they achieved mean points of 2.32 vs. 4.09 vs. 3.78 vs. 3.28 per round, respectively. <!-- Round: 1500, Scores: [3484, 6141, 5668, 4914] -->
 
 # Other agents on GitHub
 
